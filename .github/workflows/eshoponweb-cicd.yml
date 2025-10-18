@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-lazy
-  LOCATION: westeurope
+  LOCATION: West US
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: af8eb284-de5d-4a03-ae60-9eb24f9d6864
   WEBAPP-NAME: eshoponweb-webapp-lazy
